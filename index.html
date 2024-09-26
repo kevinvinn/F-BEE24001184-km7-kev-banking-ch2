@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akun Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #saldo {
+            font-size: 24px;
+            color: green;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Akun Bank</h1>
+    <p>Saldo saat ini: <span id="saldo"></span></p>
+    <button onclick="tambahSaldo()">Deposit</button>
+    <button onclick="kurangiSaldo()">Withdraw</button>
+
+    <script type="module" src="./banking_system.js"></script>
+</body>
+
+</html>
